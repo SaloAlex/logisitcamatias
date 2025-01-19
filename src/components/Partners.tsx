@@ -62,10 +62,10 @@ export function Partners() {
         <div className="bg-gradient-to-r from-gray-800 via-gray-900 to-black rounded-2xl shadow-xl p-8 md:p-12 border border-gray-500">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4 text-white">
-              Empresas que confían en nosotros
+              Marcas que confían en nosotros
             </h2>
             <p className="text-gray-400 mb-8">
-              Estas son algunas de las empresas que nos respaldan con su
+              Estas son algunas de las marcas que nos respaldan con su
               confianza y colaboración.
             </p>
             <div className="grid gap-8 md:grid-cols-4">
