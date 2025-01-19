@@ -1,11 +1,11 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-import serviceImage1 from '../public/assets/1.webp';
-import serviceImage2 from '../public/assets/2.webp';
-import serviceImage3 from '../public/assets/3.webp';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import serviceImage1 from "../public/assets/1.webp";
+import serviceImage2 from "../public/assets/2.webp";
+import serviceImage3 from "../public/assets/3.webp";
 
 const services = [
   {
@@ -39,15 +39,15 @@ export function Services() {
             >
               {services.map((service, index) => (
                 <SwiperSlide key={index}>
-                  <div className="w-full h-[80vh] relative">
+                  <div className="relative">
                     <img
                       src={service.image}
-                      className="w-full h-full object-contain bg-gradient-to-b from-gray-900 to-black"
+                      className="w-full h-auto object-contain bg-gradient-to-b from-gray-900 to-black"
                       alt={`Service ${index + 1}`}
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent">
-                      <div className="absolute bottom-0 left-0 right-0 p-8">
+                      <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-8">
                         {/* Puedes agregar contenido aquí */}
                       </div>
                     </div>
