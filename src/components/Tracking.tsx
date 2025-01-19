@@ -36,7 +36,7 @@ export function Tracking() {
             </div>
             <div className="text-center mt-8">
               <a
-                href="https://tuplataforma.com/tracking" // Cambia por tu enlace real
+                href="https://www.lightdata.app/" // Cambia por tu enlace real
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3 bg-gradient-to-r from-gray-800 to-gray-500 text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-[#D4AF37]/30 transition-all duration-300"

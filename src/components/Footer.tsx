@@ -1,5 +1,6 @@
 
 import { Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import logo from '../public/assets/logo.png';
 
 export function Footer() {
   return (
@@ -9,11 +10,11 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center">
-              <img
-                src="src/public/assets/logo.png" // Reemplaza con la ruta de tu logo
-                alt="Logo Logística Matías"
-                className="h-8 w-8" // Ajusta el tamaño del logo según sea necesario
-              />
+            <img
+              src={logo}
+              alt="Logistica Matías Logo"
+              className="ml-3 h-12"
+            />
               <span className="ml-2 text-xl font-bold text-white">Logística Matías</span>
             </div>
             <p className="text-sm">
