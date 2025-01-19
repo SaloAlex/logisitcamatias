@@ -1,6 +1,7 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { NavLink } from './NavLink';
+import logo from '../public/assets/logo.png';
 
 const navigationLinks = [
   { href: '#services', label: 'Home' },
@@ -17,7 +18,7 @@ export function Header() {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <img
-              src="src/public/assets/logo.png"
+              src={logo}
               alt="Logistica Matías Logo"
               className="ml-3 h-12"
             />
