@@ -6,7 +6,7 @@ import logo from '../public/assets/logo.png';
 const navigationLinks = [
   { href: '#services', label: 'Home' },
   { href: '#benefits', label: 'Beneficios' },
-  { href: '#tracking', label: 'Straking' },
+  { href: '#tracking', label: 'Seguimiento' },
 ];
 
 export function Header() {
