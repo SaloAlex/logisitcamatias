@@ -3,7 +3,7 @@ import { Hero } from './components/Hero';
 import { Services } from './components/Services';
 import { Benefits } from './components/Benefits';
 import { Tracking } from './components/Tracking';
-import { ContactForm } from './components/ContactForm';
+// import { ContactForm } from './components/ContactForm';
 import { Footer } from './components/Footer';
 import { Partners } from './components/Partners';
 import { FaWhatsapp } from 'react-icons/fa';
@@ -17,7 +17,7 @@ function App() {
       <Benefits />
       <Tracking />
       <Partners />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <Footer />
 
       {/* Botón de WhatsApp */}
